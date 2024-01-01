@@ -1,6 +1,6 @@
+const config = require('./config');
 const mongoose = require('mongoose');
-const mongoURI ='mongodb+srv://piyush1:WZaWx5WMFS4SaYp8@cluster0.vvles90.mongodb.net/crudProject?retryWrites=true&w=majority'
-
+const mongoURI = config.MONGO_URI;
   const mongoDB = async () => {
     try {
       await mongoose.connect(mongoURI);
