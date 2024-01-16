@@ -15,7 +15,7 @@ export default function Signup() {
     })
     const js = await resp.json();
     console.log(js);
-    if(js.message != 'successful') {
+    if(js.message !== 'successful') {
       alert('Enter Valid Credentials');
     }
   }
