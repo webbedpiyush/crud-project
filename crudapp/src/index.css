@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family:'Times New Roman', Times, serif
+  font-family: 'NHaasGroteskDSPro-65Md' !important;
 }
 
 code {
@@ -13,6 +14,13 @@ code {
     monospace;
 }
 
-#carousel {
-  max-height: 700px;
+
+.nav-link{
+  color: white !important;
+}
+#carousel{
+  max-height: 500px;
+}
+.carousalImg{
+  object-fit: contain !important;
 }
